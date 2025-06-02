@@ -8,7 +8,7 @@ currentUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ { p
 pathToIcon="$4"
 
 userID=$(sudo -u "$currentUser" osascript <<
-tell application "System Events" to text returned of (display dialog "Please type in your Chainalysis email address to verify Mac device ownership:" with icon POSIX file "$pathToIcon" default answer "example@chainalysis.com" buttons {"OK"} default button 1)
+tell application "System Events" to text returned of (display dialog "Please type in your work email address to verify Mac device ownership:" with icon POSIX file "$pathToIcon" default answer "example@yourCompany.com" buttons {"OK"} default button 1)
 EOF)
 
 echo "Tool launched successfully...Outputting userID now"
