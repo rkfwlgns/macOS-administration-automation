@@ -1,0 +1,6 @@
+About the security settings:
+
+However, this brings us to a fundamental security feature of macOS. Due to the operating system's strong privacy and sandboxing rules, one application is strictly prohibited from programmatically checking the detailed permission status of another application. This means our helper app has no way to know whether Microsoft Teams has been granted screen recording access. This is a deliberate design by Apple to protect user privacy and security.
+The permission check we used in the very first version of this script was using ScreenCaptureKit, which can only check if our own app has permission, not if a different app like Teams does.
+Therefore, this tool is best thought of as a user-friendly "guide" that you can provide to users to walk them through a common setup step with clear, branded instructions.
+The responsibility for checking screen recording permissions actually lies with the Microsoft Teams application itself. When a user tries to share their screen from within Teams, it is the one that has the ability to detect if it's missing the permission, and it will usually trigger the official macOS prompt at that time. This helper app serves as a more detailed and persistent guide than the system prompt alone, which can be particularly useful in a corporate environment where you want to give users a simple, trusted tool.

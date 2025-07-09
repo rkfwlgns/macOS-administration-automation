@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FA9A55702E11E71B0074DC33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9A55592E11E71B0074DC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9A55602E11E71B0074DC33;
+			remoteInfo = "Nudge_System Settings";
+		};
+		FA9A557A2E11E71C0074DC33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9A55592E11E71B0074DC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9A55602E11E71B0074DC33;
+			remoteInfo = "Nudge_System Settings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA9A55612E11E71B0074DC33 /* Nudge_System Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nudge_System Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9A556F2E11E71B0074DC33 /* Nudge_System SettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nudge_System SettingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9A55792E11E71C0074DC33 /* Nudge_System SettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nudge_System SettingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA9A55A92E12F4610074DC33 /* Exceptions for "Nudge_System Settings" folder in "Nudge_System Settings" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ReadME.txt,
+			);
+			target = FA9A55602E11E71B0074DC33 /* Nudge_System Settings */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		FA9A55AA2E12F4610074DC33 /* Exceptions for "Nudge_System Settings" folder in "Compile Sources" phase from "Nudge_System Settings" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = FA9A555D2E11E71B0074DC33 /* Sources */;
+			membershipExceptions = (
+				ReadME.txt,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA9A55632E11E71B0074DC33 /* Nudge_System Settings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA9A55A92E12F4610074DC33 /* Exceptions for "Nudge_System Settings" folder in "Nudge_System Settings" target */,
+				FA9A55AA2E12F4610074DC33 /* Exceptions for "Nudge_System Settings" folder in "Compile Sources" phase from "Nudge_System Settings" target */,
+			);
+			path = "Nudge_System Settings";
+			sourceTree = "<group>";
+		};
+		FA9A55722E11E71B0074DC33 /* Nudge_System SettingsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Nudge_System SettingsTests";
+			sourceTree = "<group>";
+		};
+		FA9A557C2E11E71C0074DC33 /* Nudge_System SettingsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Nudge_System SettingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9A555E2E11E71B0074DC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A556C2E11E71B0074DC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A55762E11E71C0074DC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9A55582E11E71B0074DC33 = {
+			isa = PBXGroup;
+			children = (
+				FA9A55632E11E71B0074DC33 /* Nudge_System Settings */,
+				FA9A55722E11E71B0074DC33 /* Nudge_System SettingsTests */,
+				FA9A557C2E11E71C0074DC33 /* Nudge_System SettingsUITests */,
+				FA9A55622E11E71B0074DC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9A55622E11E71B0074DC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9A55612E11E71B0074DC33 /* Nudge_System Settings.app */,
+				FA9A556F2E11E71B0074DC33 /* Nudge_System SettingsTests.xctest */,
+				FA9A55792E11E71C0074DC33 /* Nudge_System SettingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9A55602E11E71B0074DC33 /* Nudge_System Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9A55832E11E71C0074DC33 /* Build configuration list for PBXNativeTarget "Nudge_System Settings" */;
+			buildPhases = (
+				FA9A555D2E11E71B0074DC33 /* Sources */,
+				FA9A555E2E11E71B0074DC33 /* Frameworks */,
+				FA9A555F2E11E71B0074DC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA9A55632E11E71B0074DC33 /* Nudge_System Settings */,
+			);
+			name = "Nudge_System Settings";
+			packageProductDependencies = (
+			);
+			productName = "Nudge_System Settings";
+			productReference = FA9A55612E11E71B0074DC33 /* Nudge_System Settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA9A556E2E11E71B0074DC33 /* Nudge_System SettingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9A55862E11E71C0074DC33 /* Build configuration list for PBXNativeTarget "Nudge_System SettingsTests" */;
+			buildPhases = (
+				FA9A556B2E11E71B0074DC33 /* Sources */,
+				FA9A556C2E11E71B0074DC33 /* Frameworks */,
+				FA9A556D2E11E71B0074DC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9A55712E11E71B0074DC33 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA9A55722E11E71B0074DC33 /* Nudge_System SettingsTests */,
+			);
+			name = "Nudge_System SettingsTests";
+			packageProductDependencies = (
+			);
+			productName = "Nudge_System SettingsTests";
+			productReference = FA9A556F2E11E71B0074DC33 /* Nudge_System SettingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA9A55782E11E71C0074DC33 /* Nudge_System SettingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9A55892E11E71C0074DC33 /* Build configuration list for PBXNativeTarget "Nudge_System SettingsUITests" */;
+			buildPhases = (
+				FA9A55752E11E71C0074DC33 /* Sources */,
+				FA9A55762E11E71C0074DC33 /* Frameworks */,
+				FA9A55772E11E71C0074DC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9A557B2E11E71C0074DC33 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA9A557C2E11E71C0074DC33 /* Nudge_System SettingsUITests */,
+			);
+			name = "Nudge_System SettingsUITests";
+			packageProductDependencies = (
+			);
+			productName = "Nudge_System SettingsUITests";
+			productReference = FA9A55792E11E71C0074DC33 /* Nudge_System SettingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9A55592E11E71B0074DC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FA9A55602E11E71B0074DC33 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FA9A556E2E11E71B0074DC33 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA9A55602E11E71B0074DC33;
+					};
+					FA9A55782E11E71C0074DC33 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA9A55602E11E71B0074DC33;
+					};
+				};
+			};
+			buildConfigurationList = FA9A555C2E11E71B0074DC33 /* Build configuration list for PBXProject "Nudge_System Settings" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9A55582E11E71B0074DC33;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA9A55622E11E71B0074DC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9A55602E11E71B0074DC33 /* Nudge_System Settings */,
+				FA9A556E2E11E71B0074DC33 /* Nudge_System SettingsTests */,
+				FA9A55782E11E71C0074DC33 /* Nudge_System SettingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9A555F2E11E71B0074DC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A556D2E11E71B0074DC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A55772E11E71C0074DC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9A555D2E11E71B0074DC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A556B2E11E71B0074DC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A55752E11E71C0074DC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9A55712E11E71B0074DC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9A55602E11E71B0074DC33 /* Nudge_System Settings */;
+			targetProxy = FA9A55702E11E71B0074DC33 /* PBXContainerItemProxy */;
+		};
+		FA9A557B2E11E71C0074DC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9A55602E11E71B0074DC33 /* Nudge_System Settings */;
+			targetProxy = FA9A557A2E11E71C0074DC33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA9A55812E11E71C0074DC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9A55822E11E71C0074DC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA9A55842E11E71C0074DC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nudge_System Settings/Nudge_System_Settings.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slingshot.Nudge-System-Settings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA9A55852E11E71C0074DC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nudge_System Settings/Nudge_System_Settings.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slingshot.Nudge-System-Settings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA9A55872E11E71C0074DC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slingshot.Nudge-System-SettingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nudge_System Settings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nudge_System Settings";
+			};
+			name = Debug;
+		};
+		FA9A55882E11E71C0074DC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slingshot.Nudge-System-SettingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nudge_System Settings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nudge_System Settings";
+			};
+			name = Release;
+		};
+		FA9A558A2E11E71C0074DC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slingshot.Nudge-System-SettingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nudge_System Settings";
+			};
+			name = Debug;
+		};
+		FA9A558B2E11E71C0074DC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slingshot.Nudge-System-SettingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nudge_System Settings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9A555C2E11E71B0074DC33 /* Build configuration list for PBXProject "Nudge_System Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A55812E11E71C0074DC33 /* Debug */,
+				FA9A55822E11E71C0074DC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9A55832E11E71C0074DC33 /* Build configuration list for PBXNativeTarget "Nudge_System Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A55842E11E71C0074DC33 /* Debug */,
+				FA9A55852E11E71C0074DC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9A55862E11E71C0074DC33 /* Build configuration list for PBXNativeTarget "Nudge_System SettingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A55872E11E71C0074DC33 /* Debug */,
+				FA9A55882E11E71C0074DC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9A55892E11E71C0074DC33 /* Build configuration list for PBXNativeTarget "Nudge_System SettingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A558A2E11E71C0074DC33 /* Debug */,
+				FA9A558B2E11E71C0074DC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9A55592E11E71B0074DC33 /* Project object */;
+}
