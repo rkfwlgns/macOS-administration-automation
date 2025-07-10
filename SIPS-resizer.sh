@@ -1,3 +1,5 @@
+#this script is used for taking an existing logo and printing out the correct size formats for xcode-app icons
+
 logo="<your logo>"
 
 # Resize to specific dimensions
