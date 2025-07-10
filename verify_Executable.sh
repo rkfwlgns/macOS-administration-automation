@@ -1,4 +1,5 @@
 #!/bin/bash
+#checks script to see if it is executable
 
 script_name="<your script>" # Replace with the actual script name
 
